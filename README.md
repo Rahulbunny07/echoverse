@@ -1,0 +1,2 @@
+# echoverse
+Misogi AI project
