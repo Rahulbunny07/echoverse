@@ -1,0 +1,36 @@
+.dashboard {
+  padding: 20px;
+  background-color: #111;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.dashboard-title {
+  color: #e50914;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.entry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.entry-card {
+  background-color: #1c1c1c;
+  padding: 16px;
+  border-radius: 10px;
+  border-left: 4px solid #e50914;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.locked {
+  color: #999;
+  font-weight: bold;
+}
