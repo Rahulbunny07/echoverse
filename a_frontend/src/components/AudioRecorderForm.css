@@ -1,0 +1,58 @@
+.recorder-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #141414;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  font-family: 'Arial', sans-serif;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: #e50914;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #333;
+  color: white;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.record {
+  background-color: red;
+  color: white;
+}
+
+.btn.stop {
+  background-color: orange;
+  color: black;
+}
+
+.btn.submit {
+  background-color: #e50914;
+  color: white;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 10px;
+}
